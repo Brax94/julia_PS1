@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3e1dd8-f572-4f69-80c0-8d7bec450458" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/julia_mpi.c" afterPath="$PROJECT_DIR$/julia_mpi.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="julia_mpi.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/julia_mpi.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="140" column="87" lean-forward="false" selection-start-line="140" selection-start-column="87" selection-end-line="140" selection-end-column="87" />
+            <state relative-caret-position="60">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -183,12 +182,12 @@
       <updated>1505733710153</updated>
       <workItem from="1505733713552" duration="6223000" />
       <workItem from="1505752106631" duration="17000" />
-      <workItem from="1505755745534" duration="8914000" />
+      <workItem from="1505755745534" duration="8984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15154000" />
+    <option name="totallyTimeSpent" value="15224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -394,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/julia_mpi.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" column="87" lean-forward="false" selection-start-line="140" selection-start-column="87" selection-end-line="140" selection-end-column="87" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

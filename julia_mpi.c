@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include "julia_mpi.h"
-#include "mpi.h"
+#include <mpi.h>
 
 double x_start=-2.01;
 double x_end=1;
