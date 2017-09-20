@@ -1,0 +1,3 @@
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/cmake-build-debug/CMakeFiles/PS1_files.dir

@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-flat_namespace CMakeFiles/PS1_files.dir/bitmap.c.o CMakeFiles/PS1_files.dir/julia_mpi.c.o  -o PS1_files /usr/local/lib/libmpicxx.dylib /usr/local/lib/libmpi.dylib /usr/local/lib/libpmpi.dylib 

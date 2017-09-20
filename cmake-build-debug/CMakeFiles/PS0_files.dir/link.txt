@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/PS0_files.dir/bitmap.c.o CMakeFiles/PS0_files.dir/julia_mpi.c.o  -o PS0_files 

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/bitmap.c
+stdio.h
+-
+bitmap.h
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/bitmap.h
+
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/bitmap.h
+julia_mpi.h
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/julia_mpi.h
+
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/julia_mpi.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+julia_mpi.h
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/julia_mpi.h
+mpi.h
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/mpi.h
+
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/julia_mpi.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+bitmap.h
+/Users/eliasbragstadhagen/Programmering/PrlBr/PS1_files/bitmap.h
+
