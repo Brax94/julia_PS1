@@ -118,7 +118,7 @@ int main(int argc,char **argv) {
     MPI_Comm_size(MPI_COMM_WORLD, &numberprcs);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     double my_runtime;
-    my_runtime -= MPI_Wtime();
+    my_runtime =- MPI_Wtime();
     printf("My rank is %d\n", rank);
 
 	/* Calculate the range in the y-axis such that we preserve the
@@ -138,12 +138,11 @@ int main(int argc,char **argv) {
 
 	calculate(julia_C, rank, numberprcs);
 
+    MPI_Reduce(&pixel, &bufferpixel, XSIZE*YSIZE, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
 
     // Only rank 0 will output this
     if(rank == 0) {
-        if(numberprcs > 0) {
-            MPI_Reduce(&pixel, &bufferpixel, XSIZE*YSIZE, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
-        }
+
         /* create nice image from iteration counts. take care to create it upside
            down (bmp format) */
         unsigned char *buffer = calloc(XSIZE * YSIZE * 3, 1);
