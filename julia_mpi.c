@@ -55,7 +55,7 @@ void calculate(complex_t julia_C, int rank, int numberprcs) {
     int domain = XSIZE/(numberprcs);
     int loopend;
     if(rank != (numberprcs - 1)){
-        loopend = rank*domain;
+        loopend = (rank+1)*domain;
     }
     else{
         loopend = XSIZE;
